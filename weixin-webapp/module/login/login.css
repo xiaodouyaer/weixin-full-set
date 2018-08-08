@@ -1,0 +1,43 @@
+body {
+	background-color: white;
+}
+
+.mui-input-group:before,
+.mui-input-group:after {
+	height: 0px;
+}
+
+.mui-input-row label {
+	width: 20%;
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 80%;
+}
+
+.custom-title-style {
+	font-family: "comic sans ms";
+	color: gray;
+}
+
+.custom-button-margin {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.custom-button-color {
+	color: white;
+	background-color: #A2E08D;
+}
+
+.mui-btn-block {
+	padding: 0px;
+}
+
+.mui-btn {
+	height: 48px;
+}
